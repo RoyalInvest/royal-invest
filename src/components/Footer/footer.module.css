@@ -1,0 +1,14 @@
+.wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer {
+    background: #383535;
+    padding: 40px 0;
+    margin-top: 120px;
+}
+.links {
+    color: #fff;
+    margin-left: 24px;
+}
