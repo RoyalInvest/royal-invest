@@ -10,6 +10,7 @@ export default function Footer() {
           <div>
             <Link className={styles.links} href="/">Главная</Link>
             <Link className={styles.links} href="/capers">Каперы</Link>
+            <a target="__blank" className={styles.links} href="https://t.me/Aditya_Manager_01_original">Поддержка</a>
           </div>
         </div>
       </div>

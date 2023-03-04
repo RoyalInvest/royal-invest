@@ -15,6 +15,7 @@ export default function Nav() {
           <Link href="/capers" className={styles.links}>
             Каперы
           </Link>
+          <a target="__blank" className={styles.links} href="https://t.me/Aditya_Manager_01_original">Поддержка</a>
           <Link href="/capers" className={`${styles.btnLink} btn`}>
             Заработать
           </Link>
