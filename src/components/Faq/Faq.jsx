@@ -26,7 +26,7 @@ export default function Faq() {
       <h2 className="title">Faq</h2>
       <Collapse.Group className={styles.wrap}>
         {collapse.map((item, key) => (
-          <Collapse title={item.title}>
+          <Collapse key={key} title={item.title}>
             <Text>
               {item.text}
             </Text>
