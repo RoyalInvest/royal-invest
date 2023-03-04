@@ -4,20 +4,20 @@ import { Collapse, Text } from "@nextui-org/react";
 export default function Faq() {
   const collapse = [
     {
-      title: "Title",
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      title: "Что делать, если капер обманул?",
+      text: "Несмотря на то, что такого еще никогда не было, вы в любой момент можете обратиться в поддержку.",
     },
     {
-      title: "Title",
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      title: "Почему у вас не много каперов?",
+      text: "Все наши каперы проходят тщательную проверку нашей командой. Сюда попадают лишь на 100% проверены каперы.",
     },
     {
-      title: "Title",
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      title: "Какой капер из предложенных лучше выбрать?",
+      text: "Абсолютно все каперы хороши, выбирайте того, кто вам больше импонирует.",
     },
     {
-      title: "Title",
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      title: "Почему я должен верить вам?",
+      text: "Не обязательно верить именно нам. Лучше верьте отзывам реальных пользователей на нашем сайте.",
     },
   ];
 
