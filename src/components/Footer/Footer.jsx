@@ -1,6 +1,5 @@
 import Link from "next/link";
 import styles from "./footer.module.css";
-import logo from "./../../../public/logo.svg";
 import Image from "next/Image";
 
 export default function Footer() {
@@ -8,9 +7,7 @@ export default function Footer() {
     <footer className={styles.footer}>
       <div className="container">
         <div className={styles.wrap}>
-          <Link href="/">
-            <Image className='logo' src={logo} alt="logo" />
-          </Link>
+            <Link href='/' className="logo"></Link>
           <div>
             <Link className={styles.links} href="/">
               Главная

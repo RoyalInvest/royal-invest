@@ -137,6 +137,9 @@ a {
 .logo {
   width: 60px;
   height: 60px;
+  background: url('../../public/logo.svg') no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
 @media screen and (max-width: 992px) {

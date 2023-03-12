@@ -1,17 +1,12 @@
 import styles from "./nav.module.css";
 import Link from "next/link";
-import logo from "./../../../public/logo.svg";
 import Image from 'next/Image';
 
 export default function Nav() {
   return (
     <nav className={`${styles.wrap}`}>
       <div className="container  d-flex a-center j-space-between">
-        <div className="">
-          <Link href="/">
-            <Image className="logo" src={logo} alt="logo" />
-          </Link>
-        </div>
+          <Link href='/' className="logo"></Link>
         <div className={styles.linksWrap}>
           <Link href="/" className={styles.links}>
             Главная
